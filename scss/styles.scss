@@ -11,9 +11,7 @@ body {
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: 40% 60%;
-  grid-template-areas: "header content"
-                       "header content"
-                       "header footer";
+  grid-template-areas: "header content";
 }
 header, nav, main, footer {
   -webkit-transition: all 0.5s ease-in-out;
@@ -154,6 +152,12 @@ header.left-header {
       color: #fff;
       font-style: italic;
       font-size: 1.2vw;
+    }
+    h1, h2 {
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
     }
   }
 }
@@ -360,7 +364,26 @@ footer {
 }
 
 // Mobile Styles
-@media only screen and (max-width : 796px) {
+@media only screen and (max-width: 900px) {
+  header.left-header {
+    section.left-header-title {
+      position: relative;
+      height: auto;
+      padding: 20px 0;
+    }
+    nav.main-menu {
+      ul {
+        li {
+          a {
+            padding: 5px 30px;
+          }
+        }
+      }
+    }
+  }
+
+}
+@media only screen and (max-width: 567px) {
   body {
     //background-image: url('../img/grey.png');
     //background-repeat: repeat;
