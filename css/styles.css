@@ -9,9 +9,7 @@ body {
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: 40% 60%;
-  grid-template-areas: "header content"
- "header content"
- "header footer"; }
+  grid-template-areas: "header content"; }
 
 header, nav, main, footer {
   -webkit-transition: all 0.5s ease-in-out;
@@ -140,6 +138,9 @@ header.left-header {
       color: #fff;
       font-style: italic;
       font-size: 1.2vw; }
+    header.left-header section.left-header-title h1 a, header.left-header section.left-header-title h2 a {
+      color: #fff;
+      text-decoration: none; }
 
 main {
   grid-area: content; }
@@ -290,7 +291,15 @@ footer {
         font-size: 30px;
         margin-top: 8px; }
 
-@media only screen and (max-width: 796px) {
+@media only screen and (max-width: 900px) {
+  header.left-header section.left-header-title {
+    position: relative;
+    height: auto;
+    padding: 20px 0; }
+  header.left-header nav.main-menu ul li a {
+    padding: 5px 30px; } }
+
+@media only screen and (max-width: 567px) {
   body {
     grid-template-rows: 100px 50px auto auto;
     grid-template-columns: 100%;
