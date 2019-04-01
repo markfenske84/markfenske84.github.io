@@ -190,17 +190,17 @@ main {
       align-content: center; }
       main section div.section-content ul.portfolio-list.websites {
         margin-bottom: 60px; }
-        main section div.section-content ul.portfolio-list.websites li:nth-child(1) a {
+        main section div.section-content ul.portfolio-list.websites li:nth-child(1) > a {
           background: url("../img/desygner.jpg"); }
-        main section div.section-content ul.portfolio-list.websites li:nth-child(2) a {
+        main section div.section-content ul.portfolio-list.websites li:nth-child(2) > a {
           background: url("../img/zstand.jpg"); }
-        main section div.section-content ul.portfolio-list.websites li:nth-child(3) a {
+        main section div.section-content ul.portfolio-list.websites li:nth-child(3) > a {
           background: url("../img/vinyldoc.jpg"); }
-        main section div.section-content ul.portfolio-list.websites li:nth-child(4) a {
+        main section div.section-content ul.portfolio-list.websites li:nth-child(4) > a {
           background: url("../img/bknvespa.jpg"); }
-      main section div.section-content ul.portfolio-list.writing li:nth-child(1) a {
+      main section div.section-content ul.portfolio-list.writing li:nth-child(1) > a {
         background: url("../img/desygner-writing.jpg"); }
-      main section div.section-content ul.portfolio-list.writing li:nth-child(2) a {
+      main section div.section-content ul.portfolio-list.writing li:nth-child(2) > a {
         background: url("../img/zstand-writing.jpg"); }
       main section div.section-content ul.portfolio-list li {
         list-style: none;
@@ -224,7 +224,7 @@ main {
           -webkit-transition: color 0.3s ease-in-out;
           -moz-transition: color 0.3s ease-in-out;
           transition: color 0.3s ease-in-out; }
-          main section div.section-content ul.portfolio-list li a:before {
+          main section div.section-content ul.portfolio-list li > a:before {
             content: "";
             position: absolute;
             z-index: -1;
