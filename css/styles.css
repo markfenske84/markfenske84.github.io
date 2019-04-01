@@ -242,14 +242,14 @@ main {
             -webkit-transition: all 0.3s ease-in-out;
             -moz-transition: all 0.3s ease-in-out;
             transition: all 0.3s ease-in-out; }
-          main section div.section-content ul.portfolio-list li a:hover, main section div.section-content ul.portfolio-list li a:focus, main section div.section-content ul.portfolio-list li a:active {
+          main section div.section-content ul.portfolio-list li > a:hover, main section div.section-content ul.portfolio-list li > a:focus, main section div.section-content ul.portfolio-list li > a:active {
             color: white; }
-            main section div.section-content ul.portfolio-list li a:hover img, main section div.section-content ul.portfolio-list li a:hover span, main section div.section-content ul.portfolio-list li a:focus img, main section div.section-content ul.portfolio-list li a:focus span, main section div.section-content ul.portfolio-list li a:active img, main section div.section-content ul.portfolio-list li a:active span {
+            main section div.section-content ul.portfolio-list li > a:hover img, main section div.section-content ul.portfolio-list li > a:hover span, main section div.section-content ul.portfolio-list li > a:focus img, main section div.section-content ul.portfolio-list li > a:focus span, main section div.section-content ul.portfolio-list li > a:active img, main section div.section-content ul.portfolio-list li > a:active span {
               opacity: 0; }
-          main section div.section-content ul.portfolio-list li a:hover:before, main section div.section-content ul.portfolio-list li a:focus:before, main section div.section-content ul.portfolio-list li a:active:before {
+          main section div.section-content ul.portfolio-list li > a:hover:before, main section div.section-content ul.portfolio-list li > a:focus:before, main section div.section-content ul.portfolio-list li > a:active:before {
             -webkit-transform: scaleX(0);
             transform: scaleX(0); }
-          main section div.section-content ul.portfolio-list li a img, main section div.section-content ul.portfolio-list li a span {
+          main section div.section-content ul.portfolio-list li > a img, main section div.section-content ul.portfolio-list li > a span {
             width: 50%;
             height: auto;
             -webkit-transition: all 0.3s ease-in-out;
