@@ -250,7 +250,7 @@ main {
             -webkit-transform: scaleX(0);
             transform: scaleX(0); }
           main section div.section-content ul.portfolio-list li a img, main section div.section-content ul.portfolio-list li a span {
-            width: 60%;
+            width: 50%;
             height: auto;
             -webkit-transition: all 0.3s ease-in-out;
             -moz-transition: all 0.3s ease-in-out;
