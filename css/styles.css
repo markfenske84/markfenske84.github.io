@@ -208,7 +208,7 @@ main {
         width: calc(100% / 2);
         float: left;
         text-align: center; }
-        main section div.section-content ul.portfolio-list li a {
+        main section div.section-content ul.portfolio-list li > a {
           height: 200px;
           width: 100%;
           background-position: center;
